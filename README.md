@@ -78,8 +78,7 @@ Input: x = 5, n = 2
 Output: 25
  
 12. Compound Interest
-Take principle, rate, and the time period from user. Calculate and print the
-compound interest.
+Take principle, rate, and the time period from user. Calculate and print the compound interest.
 
 Example 1 : 
 Input:  principle : 1000, rate : 5.0, time = 2
