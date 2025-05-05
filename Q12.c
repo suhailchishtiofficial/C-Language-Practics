@@ -2,19 +2,21 @@
 #include <math.h>
 
 int main() {
-    float radius, area, circumference;
+    double principal, rate, time, amount, compoundInterest;
 
+    printf("Enter the principal amount: ");
+    scanf("%lf", &principal);
 
-    printf("Enter the radius of the circle: ");
-    scanf("%f", &radius);
+    printf("Enter the annual interest rate (in percent): ");
+    scanf("%lf", &rate);
 
-   
-    area = M_PI * radius * radius;
-    circumference = 2 * M_PI * radius;
+    printf("Enter the time period (in years): ");
+    scanf("%lf", &time);
 
-   
-    printf("Area of the circle = %.2f\n", area);
-    printf("Circumference of the circle = %.2f\n", circumference);
+    amount = principal * pow((1 + rate / 100), time);
+    compoundInterest = amount - principal;
+
+    printf("Compound Interest = %.2lf\n", compoundInterest);
 
     return 0;
 }

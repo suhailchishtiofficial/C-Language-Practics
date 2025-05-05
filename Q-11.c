@@ -2,18 +2,17 @@
 #include <math.h>
 
 int main() {
-    float radius, area, circumference;
+    double base, exponent, result;
 
-    printf("Enter the radius of the circle: ");
-    scanf("%f", &radius);
+    printf("Enter base: ");
+    scanf("%lf", &base);
 
-   
-    area = M_PI * radius * radius;  
-    circumference = 2 * M_PI * radius;  
+    printf("Enter exponent: ");
+    scanf("%lf", &exponent);
 
-    // Output (%.2f ensures two decimal places)
-    printf("Area of the circle = %.2f\n", area);
-    printf("Circumference of the circle = %.2f\n", circumference);
+    result = pow(base, exponent);
+
+    printf("%.2lf raised to the power %.2lf is = %.2lf\n", base, exponent, result);
 
     return 0;
 }

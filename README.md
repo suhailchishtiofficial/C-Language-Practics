@@ -70,8 +70,8 @@ Input:hours : 2
 Output: 120 minutes in 2 hours
 
 11. Calculate Power of a Number
-Take radius of circle from user. Calculate and print the area and 
-circumference till two decimal place.
+<!-- Take radius of circle from user. Calculate and print the area and 
+circumference till two decimal place. --> from Q 8
 
 Example 1 : 
 Input: x = 5, n = 2
