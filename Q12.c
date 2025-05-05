@@ -19,6 +19,5 @@ int main() {
     compoundInterest = amount - principal;
 
     printf("Compound Interest = %.2lf\n", compoundInterest);
-
     return 0;
 }
