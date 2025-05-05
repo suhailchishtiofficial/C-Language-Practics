@@ -60,7 +60,12 @@ Example 1 :
 Input: radius : 7
 Output: Area of circle : 153.94
         Circumference of circle: 43.98
- 
+
+9. Area of Triangle
+Take three sides of triangle from user. Calculate and print  the area using heron’s formula
+
+
+
 10. Convert Hours to Minutes
 
 Take number of hours from user. Convert it into minutes and print them in console with message.

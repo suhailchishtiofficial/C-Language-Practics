@@ -1,3 +1,5 @@
+// 12. Compound Interest
+
 #include <stdio.h>
 #include <math.h>
 

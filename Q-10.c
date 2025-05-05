@@ -1,3 +1,5 @@
+// 10. Convert Hours to Minutes
+
 #include <stdio.h>
 
 int main() {
