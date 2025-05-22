@@ -7,6 +7,7 @@ Example 1 :
 Input:  a = 5, b = 7
 Output: 12
 
+
 2. Arithmetic Operations
 Take two integers  a & b  with some constant values. Perform arithmetic operations (+, -, *, /) and print  with the appropriate message.
 
@@ -133,6 +134,7 @@ Output: Positive
 Accept the name and age of user as input. If the user is 18 or older, print: 
 ‘Hello [Name], you are eligible to vote.’ Otherwise, print: ‘Hello [Name], 
 you will be eligible to vote in (18 - age) years.
+
 Example 1 : 
 Input: name = “Polu”, age = 19
 Output: Hello Polu, you are eligible to vote
@@ -227,6 +229,7 @@ input: Female
         Graduate        
 Output: Percentage : 45.25%, Grade : D
 
+
 25. Weekdays Calculator
 
 Display the weekday corresponding to a number (1–7); print "Invalid 
@@ -236,11 +239,356 @@ Example 1 :
 Input: 3
 Output: Wednesday
 
+
 26.  Vowel/ Consonants
 Take a single alphabet as input and print "Vowel" if it's a vowel, otherwise 
 print "Consonant".
 
 Example 1 : 
 Input: a
-Output: Vowe
+Output: Vowel
+
+
+27. Print Numbers from 1 to N
+
+Take a number n as input and print all numbers from 1 to n separated by 
+spaces
+
+Example 1 : 
+Input:  n = 5
+Output: 1 2 3 4 5
+
+28. Print Numbers from N to 1
+
+Take a number n as input and print all numbers from n to 1 in reverse 
+order, separated by spaces
+
+Example :
+Input: n = 5
+Output: 5 4 3 2 1
+
+29. Calculate Sum and Average
+
+Take a number n as input, calculate the sum of numbers from 1 to n, and 
+print the sum and average.
+
+Example : 
+Input: n = 5
+Output: Sum : 15, Average : 3.0
+
+30. Factorial of N
+
+Take a number n as input and calculate its factorial. Print the result.
+
+Example 1 : 
+Input: n = 5
+Output: 120
+
+31. Sum of Factorials
+
+Take a number n as input, calculate the sum of factorials from 1 to n, and 
+print the result.
+
+Example : 
+Input: n = 12
+Output: 1 + 2 + 3 + 4 + 5 + 6  + 12 = 28
+
+32.  Calculate a to the power b
+
+Take a number as input and check whether it is a prime number or not. 
+Print "Yes" if it is prime, otherwise print "No".
+
+Example : 
+Input: n = 2
+Output: Yes
+
+33. Check if number is Prime
+
+Take a number as input and check whether it is a prime number or not. 
+Print "Yes" if it is prime, otherwise print "No".
+
+Example 1 : 
+Input: n = 8
+Output: Prime Number
+
+34.  Fibonacci Series
+
+Take a number n as input and print the Fibonacci series up to the nth 
+term. The series starts with 0 and 1, and each subsequent number is the 
+sum of the previous two.
+
+Example 1 : 
+Input: n = 7
+Output: 0  1 1 2 3 5 8
+
+35. Factor of a Number
+Take a number n as input, calculate the sum of factorials from 1 to n, and 
+print the result.
+
+Example : 
+Input: n = 12
+Output: 1 + 2 + 3 + 4 + 5 + 6  + 12 = 28
+
+
+36. Sum of Factor
+Take a number as input and check whether it is a prime number or not. 
+Print "Yes" if it is prime, otherwise print "No".
+
+Example : 
+Input:  n = 2
+Output:  Yes
+
+
+37. Separate Digits and Calculate Their Sum
+Take a number n as input, separate its digits, and print them in reverse 
+order. Also, calculate and print the sum of the digits.
+
+Example 1 : 
+Input: n=123
+Output: 321
+        Sum:6
+
+38. Reverse a number
+Take a number n as input and print its reverse.
+
+Example : 
+Input: n = 123
+Output: 321
+
+39. Check if a number is Palindrome
+Take a number as input and check whether it reads the same backward 
+as forward. Print "Palindrome Number" if it is, otherwise print "Not a 
+Palindrome Number".
+
+Example: 
+Input: n=121
+Output: Palindrome Number
+
+40. Armstrong Number
+An Armstrong number is a number that is equal to the sum of its own 
+digits each raised to the power of the number of digits. 
+Take n as input, if it is an Armstrong number then print "Armstrong 
+Number" otherwise print "Not an Armstrong Number"
+
+Example:
+Input: n = 153
+Output: Armstrong Number
+
+
+41. Strong Number
+A number N is an Strong number, if the sum of factorial of its digits is 
+equals to number N itself. 
+Take n as input, if it is an Strong number then print "Strong Number" 
+otherwise print "Not an Strong Number".
+
+Example: 
+Input: n = 145
+Output: Strong Number
+
+
+42. Special Number
+A number is called a Special Number if, by repeatedly replacing the 
+number by the sum of its digits, we eventually reach 1.
+Take n as input, if it is an Special number then print "Special Number" 
+otherwise print "Not an Special Number"
+
+Example :
+Input: n = 109
+Output: Special Number
+
+
+43. Repeat Sher Until Incorrect Input
+Write a program that prints “Shery” repeatedly until the user enters 
+anything other than ‘n’.
+
+Example:
+Console: Shery
+         Do you want to repeat y/n : y
+         Shery
+         Do you want to repeat y/n : y
+         Shery
+         Do you want to repeat y/n : n
+
+44. Right Triangle Star Pattern
+
+* 
+
+* * 
+
+* * *
+
+* * * *
+
+* * * * *
+
+
+45.  Invert Right Triangle Star Pattern
+
+* * * * *
+
+* * * *
+
+* * *
+
+* *
+
+*
+
+46. Mirror Right Triangle Star Pattern
+
+
+        *
+
+      * *
+
+    * * *
+
+  * * * *
+
+* * * * *
+
+
+47. V Star Pattern
+n is always greater than 3
+
+   *              *
+
+    *           *
+
+     *        *
+
+      *     *
+
+         *
+
+
+48. X Star Pattern
+
+
+ *            *
+    *      * 
+       * 
+    *      *
+*             *
+
+
+49. Find Sum & Average
+Take an array of numbers as input, calculate the sum of the elements, and 
+find the average. Print the sum and average rounded to two decimal 
+places.
+
+Example :
+Input: n = 4, arr = [ 1, 2, 3, 4, 5 ]
+Output: Sum : 15, Average : 3.00
+
+50. Find Maximum
+Find the maximum element in an array and print its value along with the 
+index where it is located.
+
+Example : 
+Input: arr = [ 1, 2, 3, 4, 5 ]
+Output: Max element 5 found at index 4
+
+
+51.  Check if Array is in Increasing Order or Not
+Check if the elements of an array are in increasing order. Print "Array is in 
+increasing order" if true, otherwise print "Array is not in increasing order".
+
+Example : 
+Input: arr = [ 1, 2, 3, 4, 5 ]
+Output: Array is in increasing order
+
+
+52. Reverse Array
+Reverse the elements of an array and print them in the new order.
+
+Example :
+Input: 1 2 3 4 5
+Output: 5 4 3 2 1
+
+53. Left Rotate by 1
+Perform a left rotation on an array by shifting all elements one position to 
+the left, and move the first element to the end. Print the rotated array.
+
+Example : 
+Input: 1 2 3 4 5
+Output: 2 3 4 5 1
+
+
+54. Linear Search
+Search for an element in an array by checking each element one by one. 
+Print the index where the element is found, or indicate if it's not present.
+
+Example:  
+Input: arr = {5, 12, 3 4, 56, 78}, key = 34
+Output: Element found at index: 2
+
+55. Binary Search
+Search for an element in a sorted array by repeatedly dividing the search 
+interval in half. Print the index where the element is found, or indicate if it's 
+not present.
+
+Example :
+Input: arr = {5, 12, 3 4, 56, 78}, key = 34
+Output: Element found at index: 2
+
+56. Bubble Sort
+Sort an array by repeatedly swapping adjacent elements if they are in the 
+wrong order. Print the sorted array after the process is complete.
+
+Example : 
+Input: arr = {6 4, 3 4, 25, 12, 22, 11, 90} 
+Output: 11 12 22 25 3 4 6 4 90
+
+57.  Accept String and Print
+Take a string as input, print the string, and also display its length.
+
+Example :
+
+Input: str = "Hello Shery"
+Output: String is "Hello Shery" and its length is 12
+
+58.  Check two Strings are Eqaul or Not
+Compare two strings and print "Strings are equal" if they are the same, 
+otherwise print "Strings are not equal".
+
+Example : 
+Input: s1 = "Hello", s2 = "Hello"
+Output:  Strings are equal
+
+
+59. Check Palindrome
+Check if a string reads the same forward and backward. Print "String is 
+Palindrome" if true, otherwise print "String is not Palindrome"
+
+Example : 
+Input: s = madam
+Output: String is Palindrome
+
+60. Toggle each character
+Convert each lowercase letter to uppercase and each uppercase letter 
+to lowercase in a string. Print the modified string.
+
+Example :
+Input:  s = "Hello Shery"
+Output: hELLO sHERY
+
+61. Find maximum occurring character
+Compare two strings and print "Strings are equal" if they are the same, 
+otherwise print "Strings are not equal".
+
+Example : 
+Input: s = sheryians
+Output: Maximum occurring character: s
+
+62. Find frequency of each character
+Count and print the frequency of each character in a string. Display the 
+character followed by its frequency.
+
+Example : 
+Input: s = hello
+Output: e - 1 
+        h - 1 
+        l - 2 
+        o - 1
 
